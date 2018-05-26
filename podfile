@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Old-Specs’
+platform :ios, '8.0'
+target “Rapporr” do
+	pod 'Fabric'
+	pod 'APAddressBook'
+    pod 'Crashlytics'
+    pod 'AFNetworking', '~> 2.5'
+	pod 'Firebase/Core'
+	pod 'Firebase/Messaging'
+    pod 'Masonry'
+end

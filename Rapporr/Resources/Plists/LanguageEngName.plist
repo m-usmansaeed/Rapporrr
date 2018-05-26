@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>engName</key>
+	<array>
+		<string>Afrikaans</string>
+		<string>Albanian</string>
+		<string>Arabic</string>
+		<string>Azerbaijani</string>
+		<string>Basque</string>
+		<string>Bengali</string>
+		<string>Belarusian</string>
+		<string>Bulgarian</string>
+		<string>Catalan</string>
+		<string>Chinese Simplified</string>
+		<string>Chinese Traditional</string>
+		<string>Croatian</string>
+		<string>Czech</string>
+		<string>Danish</string>
+		<string>Dutch</string>
+		<string>English</string>
+		<string>Esperanto</string>
+		<string>Estonian</string>
+		<string>Filipino</string>
+		<string>Finnish</string>
+		<string>French</string>
+		<string>Galician</string>
+		<string>Georgian</string>
+		<string>German</string>
+		<string>Greek</string>
+		<string>Gujarati</string>
+		<string>Haitian Creole</string>
+		<string>Hebrew</string>
+		<string>Hindi</string>
+		<string>Hungarian</string>
+		<string>Icelandic</string>
+		<string>Indonesian</string>
+		<string>Irish</string>
+		<string>Italian</string>
+		<string>Japanese</string>
+		<string>Kannada</string>
+		<string>Korean</string>
+		<string>Latin</string>
+		<string>Latvian</string>
+		<string>Lithuanian</string>
+		<string>Macedonian</string>
+		<string>Malay</string>
+		<string>Maltese</string>
+		<string>Norwegian</string>
+		<string>Persian</string>
+		<string>Polish</string>
+		<string>Portuguese</string>
+		<string>Romanian</string>
+		<string>Russian</string>
+		<string>Serbian</string>
+		<string>Slovak</string>
+		<string>Slovenian</string>
+		<string>Spanish</string>
+		<string>Swahili</string>
+		<string>Swedish</string>
+		<string>Tamil</string>
+		<string>Telugu</string>
+		<string>Thai</string>
+		<string>Turkish</string>
+		<string>Ukrainian</string>
+		<string>Urdu</string>
+		<string>Vietnamese</string>
+		<string>Welsh</string>
+		<string>Yiddish</string>
+	</array>
+</dict>
+</plist>

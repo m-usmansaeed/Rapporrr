@@ -1,0 +1,75 @@
+//
+//  PrefixHeader.pch
+//  Rapporr
+//
+//  Created by Rapporr-Dev-MUS on 17/04/2017.
+//  Copyright © 2017 Rapporr. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
+#import <CoreData/CoreData.h>
+#import "Masonry.h"
+
+#endif
+
+#import "AppDelegate.h"
+
+#import "NetworkManager.h"
+
+#pragma mark - ThirdParty Libs
+#import "InternetAvailability.h"
+
+#import "RKDropdownAlert.h"
+#import "Utils.h"
+#import "TPKeyboardAvoidingScrollView.h"
+#import "FDActionSheet.h"
+#import "NetworkReachabilityManager.h"
+#import "ZLPeoplePickerViewController.h"
+#import "APAddressBook.h"
+#import "APAddressBookAccessRoutine.h"
+#import "RapporrAlertView.h"
+#import "SVProgressHUD.h"
+#import "RZDataBinding.h"
+
+
+#pragma mark - Categories
+#import "UIImageView+WebCache.h"
+#import "NSDate+NKLocalizedWeekday.h"
+#import "UIImageView+Letters.h"
+#import "CALayer+UserDefinedRuntimeColor.h"
+#import "UIView+Toast.h"
+#import "UIColor+FlatUI.h"
+#import "NSString+email.h"
+#import "NSDictionary+JSONString.h"
+#import "NSArray+SubArray.h"
+#import "NSMutableArray+SubArray.h"
+#import "UILabel+DynamicHeight.h"
+#import "UIFont+Resizing.h"
+#import "NSDateFormatter+Locale.h"
+#import "MKMapView+ZoomLevel.h"
+#import "AFHTTPSessionManager+AutoRetry.h"
+#import "UIImage+CropImage.h"
+#import "UIImageView+AFNetworking.h"
+#import "NSString+EMOEmoji.h"
+#import "SwipeBack.h"
+#import "ActionSheet.h"
+
+#import "TextField.h"
+
+#pragma mark - Models
+//#import "MessageModel.h"
+//#import "TeamModel.h"
+//#import "ConversationUser.h"
+//#import "VerifiedCompanyModel.h"
+//#import "RPConverstionMessage.h"
+
+
+
+#pragma mark -
+
+#endif /* PrefixHeader_pch */

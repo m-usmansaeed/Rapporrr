@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TGRImageViewController">
+            <connections>
+                <outlet property="actInd" destination="8ux-Do-bhn" id="2UK-9c-Lm9"/>
+                <outlet property="doubleTapGestureRecognizer" destination="vr9-pv-9Ja" id="pma-Gr-jls"/>
+                <outlet property="imageView" destination="YzD-IK-hmd" id="zYT-gI-jQI"/>
+                <outlet property="scrollView" destination="mKd-iv-BEJ" id="HHd-aJ-ztb"/>
+                <outlet property="singleTapGestureRecognizer" destination="dlf-fy-eoH" id="vLg-fv-PqX"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" maximumZoomScale="2" translatesAutoresizingMaskIntoConstraints="NO" id="mKd-iv-BEJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YzD-IK-hmd">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="dlf-fy-eoH" appends="YES" id="LZ8-Bc-cDh"/>
+                                <outletCollection property="gestureRecognizers" destination="vr9-pv-9Ja" appends="YES" id="W6T-9y-6GY"/>
+                            </connections>
+                        </imageView>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="8ux-Do-bhn">
+                            <rect key="frame" x="168.5" y="315.5" width="37" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="centerY" secondItem="mKd-iv-BEJ" secondAttribute="centerY" id="20n-9l-Nev"/>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="leading" secondItem="mKd-iv-BEJ" secondAttribute="leading" id="6Ae-Dg-7fe"/>
+                        <constraint firstAttribute="trailing" secondItem="YzD-IK-hmd" secondAttribute="trailing" id="9nh-N8-PjQ"/>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="top" secondItem="mKd-iv-BEJ" secondAttribute="top" id="A02-Y3-ZDu"/>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="top" secondItem="mKd-iv-BEJ" secondAttribute="top" id="B6E-Ip-ZHq"/>
+                        <constraint firstAttribute="trailing" secondItem="YzD-IK-hmd" secondAttribute="trailing" id="K0v-Oe-uC4"/>
+                        <constraint firstAttribute="bottom" secondItem="YzD-IK-hmd" secondAttribute="bottom" id="UjO-x8-nNv"/>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="centerX" secondItem="mKd-iv-BEJ" secondAttribute="centerX" id="Woz-kq-pRh"/>
+                        <constraint firstAttribute="bottom" secondItem="YzD-IK-hmd" secondAttribute="bottom" id="iux-Up-800"/>
+                        <constraint firstItem="YzD-IK-hmd" firstAttribute="leading" secondItem="mKd-iv-BEJ" secondAttribute="leading" id="qmk-m6-Csx"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="zNw-31-f6r"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.44313725490196076" green="0.44313725490196076" blue="0.44313725490196076" alpha="0.89958797089041098" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mKd-iv-BEJ" secondAttribute="trailing" id="ERG-M0-taJ"/>
+                <constraint firstItem="mKd-iv-BEJ" firstAttribute="top" secondItem="1" secondAttribute="top" id="Fxm-Ey-fYx"/>
+                <constraint firstItem="mKd-iv-BEJ" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="M3v-cY-3NH"/>
+                <constraint firstAttribute="bottom" secondItem="mKd-iv-BEJ" secondAttribute="bottom" id="ZKO-xJ-syF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+        <tapGestureRecognizer id="dlf-fy-eoH" userLabel="Single Tap Gesture Recognizer">
+            <connections>
+                <action selector="handleSingleTap:" destination="-1" id="ghn-l1-NAV"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="vr9-pv-9Ja" userLabel="Double Tap Gesture Recognizer">
+            <connections>
+                <action selector="handleDoubleTap:" destination="-1" id="41j-31-3EF"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
